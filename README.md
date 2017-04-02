@@ -1,6 +1,6 @@
 # OVERVIEW
 
-The R scripts in this package were used to analyze, prepare and model the data from the Kaggle Two Sigma Connect: Rental Listing Inquiries competition.
+The R scripts in this branch were used to analyze, prepare and model the data from the Kaggle Two Sigma Connect: Rental Listing Inquiries competition.
 Applied in the following chronical order:
 
 -	GamesHowellPostHoc
