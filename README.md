@@ -21,6 +21,7 @@ The next packages should be installed:
 # SUMMARY OF SCRIPTS
 
 **GamesHowellPostHoc**
+
 Function to perform Games Howell Post Hoc test. Needed for data observation.
 
 **DataObservation**
