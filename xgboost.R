@@ -26,7 +26,7 @@ for (iter in 1:100) {
                 max_delta_step = 1
   )
   cv.nround = 1000
-  cv.nfold = 4
+  cv.nfold = 10
   seed.number = sample.int(10000, 1)[[1]]
   set.seed(seed.number)
   mdcv <- xgb.cv(data=dtrain, params = param, 
