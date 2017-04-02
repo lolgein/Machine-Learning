@@ -24,8 +24,8 @@ rf_param = makeParamSet(
 # Total of iteration, set at 100
 rancontrol = makeTuneControlRandom(maxit = 100L)
 
-# Cross-validation with 5 folds
-set_cv = makeResampleDesc("CV",iters = 5L)
+# Cross-validation with 10 folds
+set_cv = makeResampleDesc("CV",iters = 10L)
 
 #Tuning parameters, set measure at logloss
 rf_tune = tuneParams(learner = rf, resampling = set_cv, task = trainTask, par.set = rf_param, control = rancontrol, measures = logloss)
